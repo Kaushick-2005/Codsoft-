@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    background: repeating-linear-gradient(45deg,#67C7BA,#7167C7,#C7B967,#67C78B);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+  }
+  
+  @keyframes color{
+    0%{
+      background-position:0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+  
+  header {
+    text-align: center;
+  }
+  
+  .a{
+  display: inline-block;
+  width: 60%;
+  margin: 45px;
+  height:40%;
+  margin-right: 0;
+  padding:10px 20px;
+  border:none;
+  font-family: sans-serif;
+  border-radius:70px;
+  text-align: left;
+  background-color: #C1C6FE;
+  transition: 0.5s ease;
+  }
+  .a:active{
+    margin: 3px;
+    background-color: #67C78B;
+  }
+  .fa-facebook{
+    font-size: 50px;
+    color: #3c75ca;
+    
+  }
+  
+  .fa-instagram{
+    font-size:50px;
+    color:#FF041E;
+    
+  }
+  
+  .fa-linkedin{
+    font-size:50px;
+    color:#045FFF;
+  }
+  
+  .nav{
+    display: inline-flex;
+    list-style-type: none;
+  }
+  
+  .r{
+    z-index: 1;
+    font-weight: 650;
+    letter-spacing: 4px;
+  }
+  
+  .y{
+    text-align: left;
+    margin:35px;
+  }
+  
+  .g{
+    list-style-type: none ;
+  }
