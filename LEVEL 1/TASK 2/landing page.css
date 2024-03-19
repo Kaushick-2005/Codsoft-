@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
+.c{
+  font-family: "Bubbler One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+section{
+  background: linear-gradient(#FFBEBE,#FFFCBE,#DEFFBE,#BEFCFF);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+nav{
+  height:80px;
+}
+
+nav h1{
+  float: left;
+  margin: 10px;
+  padding: 0px;
+  line-height: 80px;
+  font-size: 60px;
+  font-size: inline ;
+  color: #FA3131;
+}
+
+nav ul{
+  float: right;
+  line-height: 80px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding:0px;
+  list-style: none;
+}
+
+nav ul li a{
+  color: #AD1FFA;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 150%;
+  padding: 7px 8px;
+}
+
+nav ul li a:hover{
+  background-color:#0E93FF;
+  transition: .5s ease;
+}
+
+.a{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  transform: translate(25);
+}
+
+.a h1{
+  font-size: 56px;
+  color: #FF3434;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.a p{
+  font-size: 28px;
+  color:#6F479B;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.a a.button{
+  font-size: 25px;
+  color:#FF0E0E;
+  padding: 12px 25px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #77B4B9;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.a a.button:hover{
+  transition:.5s ease-in;
+  color: rgba(205, 149, 149, 1);
